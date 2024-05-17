@@ -1,5 +1,5 @@
 ![](https://shonharsh.github.io/curriculum-vitae/images/banner-uipath.png)
-# //Project Pending - I am still updating all of the projects for the RPA Developer Foundation.  In doing so I am updating the existing C# Windows Legacy project while also rewriting them in both C# Windows and VB Windows.  I complete at least one project a day.
+
 # S07P03 Fix My Workflow
 
 This project is my solution in **Windows Legacy (Deprecated), C#** to the **Fix My Workflow** practice found in section 07 practice 03 of the UiPath - RPA Developer Foundation course.
@@ -10,9 +10,21 @@ After making a pull request or downloading the project, open the Main.xaml in Ui
 
 ### Practice Requirements
 
-###### **Title**
+###### **Problem statement : Get Movie Rating From IMDB website**
 
-Description
+A workflow received from a colleague isn't working as intended and needs to be fixed using the concepts and features discussed in the course.
+
+Download the workflow for Debugging.
+
+Descriptor_FIx my workflow.zip
+2.3 MB
+The provided workflow needs to be fixed to perform the following tasks:
+
+Search for the movie "The Ice Age" on the IMDb website.
+Retrieve the IMDb rating of the movie.
+Display the IMDb rating through a messagebox.
+
+**Notes:** The practice source file is located in Data\Sample Data\Descriptor_FIxMyWorkflow.zip
 
 ### Details
 
@@ -28,8 +40,16 @@ Description
 
 ### Sample Output
 
-```
-
+```sh
+05/16/2024 16:29:23 => [Debug] Debug started for file: Main
+05/16/2024 16:29:23 => [Info] RPADev-S07P03-FixMyWorkflow-WindowsLegacy execution started
+05/16/2024 16:29:23 => [Info] RPADev-S07P03-FixMyWorkflow-WindowsLegacy.Main.Begin;
+05/16/2024 16:29:23 => [Debug] Audit: Using Web App. Browser: Edge URL: https://www.imdb.com
+05/16/2024 16:29:37 => [Info] RPADev-S07P03-FixMyWorkflow-WindowsLegacy.Main.Result;
+The Ice Age
+Movie Rating: 7.5
+05/16/2024 16:29:37 => [Info] RPADev-S07P03-FixMyWorkflow-WindowsLegacy.Main.End;
+05/16/2024 16:29:37 => [Info] RPADev-S07P03-FixMyWorkflow-WindowsLegacy execution ended in: 00:00:14
 ```
 
 ### Architecture Requirements
@@ -42,11 +62,13 @@ A standard UiPath, Studio to Orchestrator cloud setup is the base of operation. 
 
 Clone the project to develop or change it.
 
-`git clone https://github.com/ShonHarsh/RPADev-S07P03-FixMyWorkflow-WindowsLegacy`
+```sh
+git clone https://github.com/ShonHarsh/RPADev-S07P03-FixMyWorkflow-WindowsLegacy
+```
 
 ### Links
 - [UiPath Automation Platform](https://www.uipath.com/)
-- [UiPath Studio](https://www.uipath.com/product/studio)
+- [UiPath Studio](https://www.uipath.com/product/studio)- [Atom Editor (Used for all my Readme files)](https://atom-editor.cc/)
 - [Shon Harsh Website 127.0.0.1](https://shonharsh.github.io/curriculum-vitae/index.html)
 - [This.GitHub](https://github.com/shonharsh)
 - [LinkedIn](https://www.linkedin.com/in/shonharsh/)

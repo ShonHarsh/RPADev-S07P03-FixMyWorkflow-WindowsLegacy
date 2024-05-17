@@ -1,0 +1,9 @@
+05/16/2024 16:29:23 => [Debug] Debug started for file: Main
+05/16/2024 16:29:23 => [Info] RPADev-S07P03-FixMyWorkflow-WindowsLegacy execution started
+05/16/2024 16:29:23 => [Info] RPADev-S07P03-FixMyWorkflow-WindowsLegacy.Main.Begin;
+05/16/2024 16:29:23 => [Debug] Audit: Using Web App. Browser: Edge URL: https://www.imdb.com
+05/16/2024 16:29:37 => [Info] RPADev-S07P03-FixMyWorkflow-WindowsLegacy.Main.Result;
+The Ice Age
+Movie Rating: 7.5
+05/16/2024 16:29:37 => [Info] RPADev-S07P03-FixMyWorkflow-WindowsLegacy.Main.End;
+05/16/2024 16:29:37 => [Info] RPADev-S07P03-FixMyWorkflow-WindowsLegacy execution ended in: 00:00:14

@@ -1,30 +1,34 @@
 {
-  "name": "RPADev-S07P03-FixMyWorkflow",
-  "description": "Reorganizing a workflow from a recording\r\n\r\nThe workflow from the attachment includes the result of a recording session. Reorganize it in order to:\r\n\r\nHave parts of the project in separate workflows and Invoke them.\r\nGenerate 5 names in a loop.\r\nWrite the results in a single file called people.xlsx.",
+  "name": "RPADev-S07P03-FixMyWorkflow-WindowsLegacy",
+  "projectId": "73d85f6b-91a9-44d5-9d54-639c62b5436c",
+  "description": "Practice Requirements\r\nProblem statement : Get Movie Rating From IMDB website\r\nA workflow received from a colleague isn't working as intended and needs to be fixed using the concepts and features discussed in the course.\r\n\r\nDownload the workflow for Debugging.\r\n\r\nDescriptor_FIx my workflow.zip 2.3 MB The provided workflow needs to be fixed to perform the following tasks:\r\n\r\nSearch for the movie \"The Ice Age\" on the IMDb website. Retrieve the IMDb rating of the movie. Display the IMDb rating thro",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.10.4]",
-    "UiPath.Mail.Activities": "[1.10.5]",
-    "UiPath.System.Activities": "[21.4.1]",
-    "UiPath.UIAutomation.Activities": "[21.4.4]"
+    "UiPath.System.Activities": "[24.3.1]",
+    "UiPath.UIAutomation.Activities": "[24.4.2-preview]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
-  "studioVersion": "21.4.4.0",
+  "studioVersion": "21.10.4.0",
   "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
+    "netFrameworkLazyLoading": false,
     "isPausable": true,
+    "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
     "excludedLoggedData": [
       "Private:*",
       "*password*"
     ],
     "executionType": "Workflow",
     "readyForPiP": false,
-    "startsInPiP": false
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
   },
   "designOptions": {
     "projectProfile": "Developement",
@@ -37,13 +41,13 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "modernBehavior": true
+    "saveToCloud": false
   },
-  "expressionLanguage": "CSharp",
+  "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "590164ce-a96f-420f-8ac1-4b21f5c7b15e",
+      "uniqueId": "2a4d0401-6ba0-49db-a594-a372eedb570a",
       "input": [],
       "output": []
     }
@@ -51,5 +55,5 @@
   "isTemplate": false,
   "templateProjectData": {},
   "publishData": {},
-  "targetFramework": "Legacy"
+  "targetFramework": "Windows"
 }
